@@ -1,5 +1,6 @@
-export default function Home(){
-  return(
-      <h1>home Page</h1>
-  )
+import BlogBody from "../(componet)/Blogbody/Blogbody"
+export default function blog(){
+    return(
+        <BlogBody/>
+    )
 }
